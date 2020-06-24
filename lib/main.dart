@@ -112,7 +112,7 @@ class _HomeState extends State<Home> {
     return Dismissible(
       key: Key(DateTime.now().millisecondsSinceEpoch.toString()),
       background: Container(
-        color: Colors.red,
+        color: Colors.redAccent,
         child: Align(
           alignment: Alignment(-0.9, 0.0),
           child: Icon(
